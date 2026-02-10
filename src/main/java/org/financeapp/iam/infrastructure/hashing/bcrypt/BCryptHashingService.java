@@ -1,5 +1,6 @@
 package org.financeapp.iam.infrastructure.hashing.bcrypt;
 
+import org.financeapp.iam.application.internal.outboundservices.hashing.HashingService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**

@@ -1,8 +1,9 @@
 package org.financeapp.iam.infrastructure.tokens.jwt;
 
 import jakarta.servlet.http.HttpServletRequest;
+import org.financeapp.iam.application.internal.outboundservices.tokens.TokenService;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.token.TokenService;
+
 
 /**
  * This interface is a marker interface for the JWT token service.

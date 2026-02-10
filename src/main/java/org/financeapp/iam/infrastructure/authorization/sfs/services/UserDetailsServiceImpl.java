@@ -1,7 +1,7 @@
 package org.financeapp.iam.infrastructure.authorization.sfs.services;
 
-import com.acme.center.platform.iam.infrastructure.authorization.sfs.model.UserDetailsImpl;
-import com.acme.center.platform.iam.infrastructure.persistence.jpa.repositories.UserRepository;
+import org.financeapp.iam.infrastructure.authorization.sfs.model.UserDetailsImpl;
+import org.financeapp.iam.infrastructure.persistence.jpa.repositories.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

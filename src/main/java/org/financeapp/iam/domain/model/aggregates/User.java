@@ -23,7 +23,7 @@ public class User extends AuditableAbstractAggregateRoot<User> {
     private String username;
 
     @NotBlank
-    @Size(min = 8, max = 20)
+    @Size(min = 8, max = 100)
     private String password;
 
     @ManyToMany(fetch = FetchType.EAGER)

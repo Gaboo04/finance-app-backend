@@ -52,7 +52,7 @@ public class AuthenticationController {
     @Operation(summary = "Sign-in", description = "Sign-in with the provided credentials.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "User authenticated successfully."),
-            @ApiResponse(responseCode = "404", description = "User not found.")})
+            @ApiResponse(responseCode = "401", description = "Invalid credentials.")})
     public ResponseEntity<AuthenticatedUserResource> signIn(@RequestBody SignInResource signInResource) {
         var signInCommand = SignInCommandFromResourceAssembler.toCommandFromResource(signInResource);
         var authenticatedUser = userCommandService.handle(signInCommand);

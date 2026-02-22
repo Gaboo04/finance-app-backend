@@ -1,8 +1,8 @@
-package org.financeapp.iam.interfaces.interfaces.rest.transform;
+package org.financeapp.iam.interfaces.rest.transform;
 
 
 import org.financeapp.iam.domain.model.aggregates.User;
-import org.financeapp.iam.interfaces.interfaces.rest.resources.AuthenticatedUserResource;
+import org.financeapp.iam.interfaces.rest.resources.AuthenticatedUserResource;
 
 public class AuthenticatedUserResourceFromEntityAssembler {
     public static AuthenticatedUserResource toResourceFromEntity(User user, String token) {

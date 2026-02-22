@@ -1,4 +1,4 @@
-package org.financeapp.iam.interfaces.interfaces.rest.resources;
+package org.financeapp.iam.interfaces.rest.resources;
 
 public record AuthenticatedUserResource(Long id, String username, String token) {
 

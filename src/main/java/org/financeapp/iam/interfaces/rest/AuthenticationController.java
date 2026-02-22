@@ -1,4 +1,4 @@
-package org.financeapp.iam.interfaces.interfaces.rest;
+package org.financeapp.iam.interfaces.rest;
 
 
 import io.swagger.v3.oas.annotations.Operation;
@@ -6,14 +6,14 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.financeapp.iam.domain.services.UserCommandService;
-import org.financeapp.iam.interfaces.interfaces.rest.resources.AuthenticatedUserResource;
-import org.financeapp.iam.interfaces.interfaces.rest.resources.SignInResource;
-import org.financeapp.iam.interfaces.interfaces.rest.resources.SignUpResource;
-import org.financeapp.iam.interfaces.interfaces.rest.resources.UserResource;
-import org.financeapp.iam.interfaces.interfaces.rest.transform.AuthenticatedUserResourceFromEntityAssembler;
-import org.financeapp.iam.interfaces.interfaces.rest.transform.SignInCommandFromResourceAssembler;
-import org.financeapp.iam.interfaces.interfaces.rest.transform.SignUpCommandFromResourceAssembler;
-import org.financeapp.iam.interfaces.interfaces.rest.transform.UserResourceFromEntityAssembler;
+import org.financeapp.iam.interfaces.rest.resources.AuthenticatedUserResource;
+import org.financeapp.iam.interfaces.rest.resources.SignInResource;
+import org.financeapp.iam.interfaces.rest.resources.SignUpResource;
+import org.financeapp.iam.interfaces.rest.resources.UserResource;
+import org.financeapp.iam.interfaces.rest.transform.AuthenticatedUserResourceFromEntityAssembler;
+import org.financeapp.iam.interfaces.rest.transform.SignInCommandFromResourceAssembler;
+import org.financeapp.iam.interfaces.rest.transform.SignUpCommandFromResourceAssembler;
+import org.financeapp.iam.interfaces.rest.transform.UserResourceFromEntityAssembler;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

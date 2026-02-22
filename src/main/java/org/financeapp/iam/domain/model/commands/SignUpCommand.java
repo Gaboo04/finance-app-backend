@@ -1,10 +1,6 @@
 package org.financeapp.iam.domain.model.commands;
 
 
-import org.financeapp.iam.domain.model.entities.Role;
-
-import java.util.List;
-
 /**
  * Signup command
  * <p>
@@ -12,8 +8,7 @@ import java.util.List;
  * </p>
  * @param username the username of the user
  * @param password the password of the user
- * @param roles the roles of the user
  *
  */
-public record SignUpCommand(String username, String password, List<Role> roles) {
+public record SignUpCommand(String username, String password) {
 }
